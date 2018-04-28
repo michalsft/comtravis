@@ -300,7 +300,7 @@ babel-register@^6.26.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.15"
 
-babel-runtime@^6.22.0, babel-runtime@^6.26.0, babel-runtime@^6.3.19:
+babel-runtime@^6.22.0, babel-runtime@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   dependencies:
@@ -1213,6 +1213,10 @@ import-local@^1.0.0:
 imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
+
+in-publish@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/in-publish/-/in-publish-2.0.0.tgz#e20ff5e3a2afc2690320b6dc552682a9c7fadf51"
 
 inflight@^1.0.4:
   version "1.0.6"
@@ -3124,19 +3128,20 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-vorpal@1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/vorpal/-/vorpal-1.10.0.tgz#6bd90feb50bc006f21116b514880eb8425928dc9"
+vorpal@1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/vorpal/-/vorpal-1.12.0.tgz#4be7b2a4e48f8fcfc9cf3648c419d311c522159d"
   dependencies:
     babel-polyfill "^6.3.14"
-    babel-runtime "^6.3.19"
     chalk "^1.1.0"
+    in-publish "^2.0.0"
     inquirer "0.11.0"
     lodash "^4.5.1"
     log-update "^1.0.2"
     minimist "^1.2.0"
     node-localstorage "^0.6.0"
     strip-ansi "^3.0.0"
+    wrap-ansi "^2.0.0"
 
 w3c-hr-time@^1.0.1:
   version "1.0.1"
